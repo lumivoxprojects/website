@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    transition: 500ms ease;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+button {
+    border: 0;
+    background-color: transparent;
+}
+
+a {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media screen and (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+#follow {
+    position: fixed;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    top: 50px;
+    left: 50px;
+}
+
+#random-image {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 200ms;
+}
+
+
+/* Header */
+.header {
+    background-color: white;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+/* Position Absolute */
+.position-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: red;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.padding-small {
+    padding: 12px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 16px;
+}
+
+.margin-bottom-medium {
+    margin-bottom: 32px;
+}
+
+@media screen and (min-width: 600px) {
+    .padding-small {
+        padding: 16px;
+    }
+}
+
+/* Image */
+
+.cover {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.chip {
+    background-color: rgb(220, 220, 220);
+    border-radius: 32px;
+    padding: 8px 16px;
+    margin: 4px;
+}
+
+.chip.active {
+    background-color: rgb(180, 180, 180);
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.thumbnail {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+/* 
+    Typography  
+*/
+
+.text-align-center {
+    text-align: center;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+.text-small {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.text-large {
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text-medium {
+    font-size: 24px;
+    line-height: 28px;
+}
+
+/* Tablet */
+@media screen and (min-width: 600px) {
+    .text-large {
+        font-size: 40px;
+        line-height: 44px;
+    }
+
+    .text-medium {
+        font-size: 32px;
+        line-height: 36px;
+    }
+}
+
+/* Laptop */
+@media screen and (min-width: 1024px) {
+    .text-medium {
+        font-size: 44px;
+        line-height: 46px;
+    }
+
+    .text-large {
+        font-size: 60px;
+        line-height: 64px;
+    }
+}
+
+.font-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.font-sans {
+    font-family: 'Rubik', sans-serif;
+}
+
+.color-gray {
+    color: gray;
+}
+
+.color-red {
+    color: red;
+}
+

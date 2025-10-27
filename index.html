@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="grid.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header grid padding-small" id="header">
+        <h1 class="text-small font-mono grid-col-2">Good Design is Discipline</h1>
+        <p class="text-small font-mono grid-col-3 hide-mobile">Grid Systems Exercise for the web</p>
+        <!-- <button class="text-small font-mono grid-col-1 text-align-right hide-mobile" onclick="growText()">Grow</button>
+        <button class="text-small font-mono grid-col-1 text-align-right hide-mobile" onclick="shrinkText()">Shrink</button>
+        <button class="text-small font-mono grid-col-1 text-align-right hide-mobile" onclick="changeText()">Change</button> -->
+    </header>
+
+    <section class="grid padding-small margin-bottom-medium">
+        <p class="quote text-medium font-sans">Good Design is a matter of Discipline. It Starts by looking at the problem and collecting all the available information about it</p>
+        <p class="quote-author text-small font-mono">Massimo Vigneli</p>
+    </section>
+    
+    <section class="grid padding-small margin-bottom-medium">
+        <img class="grid-col-4" src="img/grid_oscar_maia_PT.png" alt="">
+        <img class="grid-col-2" src="img/grid_braulio_PT.png" alt="">
+    </section>
+    
+    <section class="grid padding-small margin-bottom-medium">
+        <p class="quote-large text-large font-sans">A Grid is like Underware, you wear it but it’s not to be exposed.</p>
+        <p class="quote-large-author text-small font-mono">Massimo Vigneli</p>
+    </section>
+
+    <section class="grid padding-small margin-bottom-medium">
+        <img class="grid-col-all" src="img/grid_jeremy_jansen_NL.png" alt="">
+        <img class="grid-col-2" src="img/grid_ines_nepomuceno_PT.png" alt="">
+        <img class="grid-col-4 grid-row-2" src="img/grid_ronnie_fueglister_CH.png" alt="">
+        <img class="grid-col-2" src="img/grid_nonverbal_PT.png" alt="">
+    </section>
+
+    <footer class="grid padding-small">
+        <p class="grid-col-2 text-small font-mono">CSS Grid Exercise</p>
+        <p class="grid-col-2 text-small font-mono">To be Delivered in classroom,<br> usage of CSS Grid is mandatory.</p>
+        <p class="grid-col-2 text-small font-mono">Typefaces: Roboto Mono and Rubik <br>by Google Fonts.</p>
+    </footer>
+
+    <div id="follow"></div>
+
+    <img id="random-image" src="img/grid_nonverbal_PT.png" alt="">
+
+    <!-- Javascript File -->
+    <script src="main.js"></script>
+
+</body>
+</html>
